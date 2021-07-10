@@ -1,0 +1,8 @@
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/ - CRUD no Alchemy
+https://youtu.be/VNaTl2i5P1U
+
+https://github.com/humiaozuzu/awesome-flask - Tudo sobre Flask
+
+https://stackoverflow.com/questions/46094110/using-foreignkey-in-sqlalchemy-models-in-python-flask
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/models/
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/#querying-records

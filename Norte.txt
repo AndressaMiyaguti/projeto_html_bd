@@ -1,0 +1,105 @@
+Amazonas - Manaus
+
+https://www.bolsadeviagem.com.br/os-7-melhores-pontos-turisticos-do-amazonas/#:~:text=Veja%20quais%20s%C3%A3o%20os%207%20melhores%20pontos%20tur%C3%ADsticos,%C3%A9%20uma%20obra%20bem%20famosa%20na%20regi%C3%A3o.%20
+
+Teatro Amazonas
+Encontro das aguas
+
+
+Acre - Rio Branco
+
+https://atravessandofronteirasbrasil.wordpress.com/2018/12/22/o-que-fazer-em-rio-branco-no-acre-pontos-turisticos/
+https://www.tripadvisor.com.br/Attractions-g303199-Activities-State_of_Acre.html
+https://www.tripadvisor.com.br/Attractions-g1076245-Activities-Rio_Branco_State_of_Acre.html
+
+Parque Ambiental Chico Mendes
+Parque da Maternidade
+
+
+Pará - Belém
+
+https://www.tripadvisor.com.br/Attractions-g303404-Activities-Belem_State_of_Para.html
+
+Mangal da Garças 
+Teatro da Paz
+Forte do Presépio
+
+
+Roraima - Boa Vista
+
+https://www.tripadvisor.com.br/Attractions-g660381-Activities-Boa_Vista_State_of_Roraima.html
+
+Parque Nacional do Monte Roraima
+Praça das Aguas
+
+
+Tocantins - Palmas
+
+https://www.tripadvisor.com.br/Attractions-g668997-Activities-Palmas_State_of_Tocantins.html
+
+Cachoeira do Roncador
+Parque Cesamar
+Cachoeira do Evilson
+
+Rondônia - Porto Velho
+
+https://www.tripadvisor.com.br/Tourism-g737097-Porto_Velho_State_of_Rondonia-Vacations.html
+
+Balneário Cachoeirinha
+Parque Natural de Porto Velho
+
+
+Amapá - Macapá
+
+https://www.tripadvisor.com.br/Attractions-g1015728-Activities-Macapa_State_of_Amapa.html
+
+Fortaleza de São José de Macapá
+Marco Zero
+BioParque Municipal de Macapá
+
+
+Capital - pontos turisticos(imagem_url) - breve descrição - descrição completa
+
+Table capitais(
+	id 
+	nome (Ex: Boa Vista - Roraima)
+	descrição
+)
+
+Table pontos_turisticos(
+	id
+	nome
+	breve_descricao
+	descricao
+	id_capital
+)
+
+Table imagens_url(
+	id
+	url
+	id_ponto_turistico	
+)
+
+-- Modelagem com apenas 1 tabela
+
+Table capitais(
+	id 
+	nome
+	descricao
+	p1_nome
+	p1_breve_d
+	p1_d
+	p1_img1
+	p1_img2
+	p1_img3
+
+	p2_nome
+	p2_breve_d
+	p2_d
+	p2_img1
+	p2_img2
+	p2_img3
+)
+
+
+
